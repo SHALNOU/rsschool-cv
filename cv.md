@@ -20,3 +20,15 @@ Currently, I study a lot, I have 2 higher educations. I am actively involved in 
 * Version control: Git (remote service GitHub)
 * Figma(for web development)
 * Windows OS, Linux(Ubuntu)
+
+### Education ###
+
+Higher education: state and municipal personnel management, physical education teacher and obzh.
+Medium special: loader driver with the 7th category, car mechanic.
+
+### Languages ###
+
+* Russian
+* English
+
+[rs school][https://app.rs.school]
