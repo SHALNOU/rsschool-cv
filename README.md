@@ -1,1 +1,1 @@
-https://SHALNOU.github.io/rsschool-cv/cv
+https://SHALNOU.github.io/rsschool-cv/
