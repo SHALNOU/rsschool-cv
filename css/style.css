@@ -73,8 +73,11 @@ h6 {
 	font-weight: inherit;
 }
 
+/*==========================================SECTION HEADER ================================================*/
+
+
 body {
-	background-color: rgb(31, 29, 29);
+	background-color: rgb(37, 36, 36);
 }
 
 .wrapper {
@@ -89,7 +92,7 @@ body {
 .container {
 	max-width: 1350px;
 	margin: auto;
-	background-color: rgb(44, 2, 2);
+	background-color: rgb(2, 2, 2);
 }
 .nav {
 }
@@ -100,11 +103,11 @@ body {
 }
 
 .logo {
-	margin-left: 5px;
+	padding-left:  20px;
 }
 .menu__link {
 	display: flex;
-	margin-right: 5px;
+	padding-right: 20px;
 }
 
 .menu__item {
@@ -120,3 +123,77 @@ body {
 
 /*==========================================SECTION ABOUT ME ================================================*/
 
+.section {
+}
+.about__me {
+}
+.section__container {
+}
+.container {
+}
+.section__content {
+	display: flex;
+}
+.section__body {
+	display: flex;
+	flex-direction: column;
+	padding: 0 98px;
+}
+.body__title {
+	padding-top: 150px;
+	font-family: "Cinzel";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 77px;
+	background: linear-gradient(295.38deg, #ffe5a2 4.89%, #bf841a 50.44%, #ffcd74 95.06%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+	text-align: center;
+}
+.body__text {
+	text-align: center;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 50px;
+	text-align: justify;
+	text-transform: capitalize;
+	color: #eff3fb;
+	padding-top: 40px;
+}
+.body__button {padding-top: 37px;
+	display: flex; justify-content: center;
+}
+.buttons__color {
+	padding: 5px 50px;
+	background: linear-gradient(295.38deg, #FFE5A2 4.89%, #BF841A 50.44%, #FFCD74 95.06%);
+border-radius: 8px;
+	
+}
+.text__button{
+	font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 50px;
+display: block;
+align-items: center;
+text-align: justify;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: #0A0D11;
+
+
+
+}
+.section__image {
+	padding-top: 85px;
+}
+.bgg {
+	opacity: 0.8;
+}
