@@ -75,7 +75,6 @@ h6 {
 
 /*==========================================SECTION HEADER ================================================*/
 
-
 body {
 	background-color: rgb(37, 36, 36);
 }
@@ -103,7 +102,7 @@ body {
 }
 
 .logo {
-	padding-left:  20px;
+	padding-left: 20px;
 }
 .menu__link {
 	display: flex;
@@ -149,8 +148,6 @@ body {
 	background: linear-gradient(295.38deg, #ffe5a2 4.89%, #bf841a 50.44%, #ffcd74 95.06%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	background-clip: text;
-	text-fill-color: transparent;
 	text-align: center;
 }
 .body__text {
@@ -160,40 +157,78 @@ body {
 	font-weight: 400;
 	font-size: 22px;
 	line-height: 50px;
-	text-align: justify;
-	text-transform: capitalize;
 	color: #eff3fb;
 	padding-top: 40px;
 }
-.body__button {padding-top: 37px;
-	display: flex; justify-content: center;
+.body__button {
+	padding-top: 37px;
+	display: flex;
+	justify-content: center;
 }
 .buttons__color {
 	padding: 5px 50px;
-	background: linear-gradient(295.38deg, #FFE5A2 4.89%, #BF841A 50.44%, #FFCD74 95.06%);
-border-radius: 8px;
-	
+	background: linear-gradient(295.38deg, #ffe5a2 4.89%, #bf841a 50.44%, #ffcd74 95.06%);
+	border-radius: 8px;
 }
-.text__button{
-	font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 50px;
-display: block;
-align-items: center;
-text-align: justify;
-letter-spacing: -0.02em;
-text-transform: uppercase;
-
-color: #0A0D11;
-
-
-
+.text__button {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 50px;
+	color: #0a0d11;
 }
 .section__image {
 	padding-top: 85px;
 }
 .bgg {
 	opacity: 0.8;
+}
+
+/*==========================================SECTION CONTACT ME ================================================*/
+
+.section__title {
+	font-family: "Cinzel";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 77px;
+	background: linear-gradient(295.38deg, #ffe5a2 4.89%, #bf841a 50.44%, #ffcd74 95.06%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+	padding-top: 120px;
+}
+
+.section__logo {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 15px;
+}
+
+.logo__column-5 {
+	padding-top: 80px;
+}
+.logo__vk {
+	text-align: center;
+}
+.logo__title {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 50px;
+	background: linear-gradient(295.38deg, #ffe5a2 4.89%, #bf841a 50.44%, #ffcd74 95.06%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.logo__text {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 50px;
+	color: #eff3fb;
+}
+.logo__img {
 }
